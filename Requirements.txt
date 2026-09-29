@@ -1,0 +1,50 @@
+## Requirements
+
+### Software
+
+- Python 3.x
+- NumPy
+- Skyfield
+- Ubuntu Linux (for the Iridium/GNU Radio toolchain)
+- GNU Radio
+- CMake
+- gr-osmosdr
+- gr-iridium
+- iridium-toolkit
+- crcmod
+- SatIQ
+
+### Dataset
+
+This project uses the public Iridium Ring Alert dataset:
+
+**Watch This Space: Securing Satellite Communication through Resilient Transmitter Fingerprinting**
+
+Zenodo DOI:
+10.5281/zenodo.8220494
+
+The dataset contains parsed Iridium satellite observations including:
+- Timestamp
+- Message ID
+- Satellite ID
+- Beam ID
+- Latitude
+- Longitude
+- Altitude
+- Confidence
+- Frequency
+- IQ samples
+
+The original dataset is several GB in size and is therefore not included
+in this repository. Download it from Zenodo and place the required
+parsed data file in the appropriate project directory.
+
+### Optional / Original Hardware Setup
+
+The original project plan included:
+- QFH antenna
+- RTL-SDR
+- GNU Radio
+
+The final positioning experiments were performed using the public dataset
+rather than a live SDR receiver.
