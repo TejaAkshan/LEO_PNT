@@ -12,3 +12,13 @@ env/
 
 # VS Code local settings
 .vscode/
+
+# Large / generated LEO-PNT data
+1109-0910_20_parsed.txt
+ira_clean.csv
+satellite_positions.csv
+one_record.cf32
+
+# Intermediate generated datasets
+ira_navigation.csv
+ira_with_norad.csv
